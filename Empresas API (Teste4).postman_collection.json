@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "1b68ce30-abff-4455-974a-109c2f2a1804",
+		"name": "Empresas API (Teste4)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41489897"
+	},
+	"item": [
+		{
+			"name": "Pesquisar Empresas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/pesquisar?termo=Bradesco",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"pesquisar"
+					],
+					"query": [
+						{
+							"key": "termo",
+							"value": "Bradesco"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
